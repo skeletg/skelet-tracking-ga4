@@ -15,13 +15,13 @@ import (
 )
 
 const (
-	Slug            = "tracking-ga4"
+	Slug            = "skelet-tracking-ga4"
 	Kind            = "ga4"
 	defaultEndpoint = "https://www.google-analytics.com"
 )
 
 func init() {
-	p := sdk.RegisterPlugin(sdk.Manifest{Slug: Slug, Name: "Google Analytics 4 (server-side)", Version: "0.1.0", SDKRange: "^0.1.0"})
+	p := sdk.RegisterPlugin(sdk.Manifest{Slug: Slug, Name: "Google Analytics 4 (server-side, in development)", Version: "0.1.0", SDKRange: "^0.1.0"})
 	p.RegisterDestination(sdk.Destination{
 		Kind:     Kind,
 		Label:    "Google Analytics 4",

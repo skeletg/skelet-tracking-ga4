@@ -1,4 +1,7 @@
-# tracking-ga4
+# skelet-tracking-ga4
+
+> **In development.** Built from the vendor's documentation and tested against recorded requests, but not yet run
+> against a production account. Don't rely on it in production until it has been verified, and expect changes.
 
 A [Skelet](https://github.com/skeletg/skelet) tracking destination that sends shop events to Google Analytics 4
 through the Measurement Protocol. It runs server to server, so no Google script loads on the storefront.
@@ -8,8 +11,10 @@ analytics consent.
 
 ## Install
 
+There are no releases yet, so install from `main`:
+
 ```bash
-skelet cli plugin add github.com/skeletg/tracking-ga4@<version>
+skelet cli plugin add github.com/skeletg/skelet-tracking-ga4@main
 ```
 
 Then rebuild the backend and add the destination under **Marketing → Tracking** in the dashboard.

@@ -1,4 +1,4 @@
-module github.com/skeletg/tracking-ga4
+module github.com/skeletg/skelet-tracking-ga4
 
 go 1.27.3
 
